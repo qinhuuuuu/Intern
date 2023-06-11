@@ -200,8 +200,7 @@ const COLORS = {
     200: '#FFADD1',
     100: '#FFD6E7',
     50: '#FFF0F5',
-  }, 'transparent-banner3': "rgba(11, 29, 55, 0.2)",
-
+  },
 
 }
 
@@ -297,7 +296,8 @@ module.exports = {
         'banner-2': "url('/src/img/banner/banner-2.png')",
         'banner-2-transparent': "url('/src/img/banner/banner-2-transparent.png')",
         'review-transparent': "linear-gradient(180deg, rgba(4, 21, 45, 0) 0%, rgba(4, 18, 38, 0.76) 50.51%, rgba(4, 18, 38, 0.88) 100%)",
-        // 'banner-3-transparent': "rgba(11, 29, 55, 0.8);",
+        'banner-3': "url('/src/img/banner-3/background.png')",
+        'banner-3-transparent': "url('/src/img/banner-3/banner-3-transparent.png')",
       },
       boxShadow: {
         'form-shadow': "0px 4px 30px rgba(40, 53, 51, 0.15)",
