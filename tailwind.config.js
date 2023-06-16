@@ -201,6 +201,7 @@ const COLORS = {
     100: '#FFD6E7',
     50: '#FFF0F5',
   },
+  'ellipse-3': "rgba(232, 245, 253, 0.3)",
 
 }
 
@@ -280,6 +281,7 @@ module.exports = {
         'title-1': ['20px', '28px'],
         'title-2': ['24px', '29px'],
         'title-3': ['28px', 'auto'],
+        'title-3-2': ['28px', '35px'],
         'title-4': ['30px', '44px'],
         'title-5': ['32px', '48px'],
         'title-6': ['24px', 'auto'],
@@ -298,12 +300,17 @@ module.exports = {
         'review-transparent': "linear-gradient(180deg, rgba(4, 21, 45, 0) 0%, rgba(4, 18, 38, 0.76) 50.51%, rgba(4, 18, 38, 0.88) 100%)",
         'banner-3': "url('/src/img/banner-3/background.png')",
         'banner-3-transparent': "url('/src/img/banner-3/banner-3-transparent.png')",
+        'section-3-khach-hang-noi-gi': "url('/src/img/about/section-3-khach-hang-noi-gi/background-section3.png')",
       },
       boxShadow: {
         'form-shadow': "0px 4px 30px rgba(40, 53, 51, 0.15)",
+        'circle': "rgba(232, 245, 253, 0.3)",
       },
       animation: {
         'header': 'spin 300ms ease-in-out infinite',
+      },
+      aspectRatio: {
+        '10/7': '10/7',
       },
     },
   },

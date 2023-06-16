@@ -96,6 +96,12 @@ module.exports = {
       inject: "body",
       chunks: ['index'],
     }),
+    new HtmlWebpackPlugin({
+      filename: 'contact.html',
+      template: './src/views/contact.html',
+      inject: "body",
+      chunks: ['index'],
+    }),
 
     new MiniCssExtractPlugin({
       filename: "css/[name].min.css",

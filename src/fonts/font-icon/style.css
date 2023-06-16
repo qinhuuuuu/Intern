@@ -1,7 +1,7 @@
 @font-face {
   font-family: 'TwebIcons-19';
-  src:  url('fonts/TwebIcons-19.eot?mmk0xz');
-  src:  url('fonts/TwebIcons-19.eot?mmk0xz#iefix') format('embedded-opentype'),
+  src: url('fonts/TwebIcons-19.eot?mmk0xz');
+  src: url('fonts/TwebIcons-19.eot?mmk0xz#iefix') format('embedded-opentype'),
     url('fonts/TwebIcons-19.ttf?mmk0xz') format('truetype'),
     url('fonts/TwebIcons-19.woff?mmk0xz') format('woff'),
     url('fonts/TwebIcons-19.svg?mmk0xz#TwebIcons-19') format('svg');
@@ -10,7 +10,8 @@
   font-display: block;
 }
 
-[class^="twi-19-"], [class*=" twi-19-"] {
+[class^="twi-19-"],
+[class*=" twi-19-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'TwebIcons-19' !important;
   speak: never;
@@ -27,49 +28,60 @@
 
 .twi-19-arrow-back-fill:before {
   content: "\e900";
-  color: #424752;
 }
+
 .twi-19-arrow-forward-fill:before {
   content: "\e901";
-  color: #424752;
 }
+
 .twi-19-call-fill:before {
   content: "\e902";
 }
+
 .twi-19-location-fill:before {
   content: "\e903";
 }
+
 .twi-19-mail-fill:before {
   content: "\e904";
 }
+
 .twi-19-menu-fill:before {
   content: "\e905";
 }
+
 .twi-19-note-fill:before {
   content: "\e906";
-  color: #424752;
 }
+
 .twi-19-phone-fill:before {
   content: "\e907";
 }
+
 .twi-19-print-fill:before {
   content: "\e908";
 }
+
 .twi-19-area-line:before {
   content: "\e909";
 }
+
 .twi-19-building-line:before {
   content: "\e90a";
 }
+
 .twi-19-door-line:before {
   content: "\e90b";
 }
+
 .twi-19-house-line:before {
   content: "\e90c";
 }
+
 .twi-19-man-woman-line:before {
   content: "\e90d";
 }
+
 .twi-19-tree-line:before {
   content: "\e90e";
 }

@@ -13,9 +13,9 @@
         <div class="w-full bg-transparent text-primary-1 absolute top-0 z-10 ">
             <div class="xl:max-w-7xl mx-auto w-full">
                 <div class="py-8 px-4">
-                    <div class="flex justify-between items-center">
+                    <div class="grid grid-cols-2">
                         <!-- logo -->
-                        <div class="flex">
+                        <div class="flex items-center">
                             <a href="index.html" class="flex"><img src="../img/header-footer/logo.png" alt=""></a>
                         </div>
                         <!-- icon -->
@@ -25,69 +25,65 @@
                             </span>
                         </div>
                         <!-- menu desktop -->
-                        <div class="hidden xl:flex font-normal text-body-1 gap-10 items-center">
-                            <ul class="flex gap-8">
+                        <div class="hidden xl:flex gap-[120px] items-center  font-normal text-body-5 text-primary-1">
+                            <ul class="flex gap-[72px]">
                                 <li><a href="">Giới thiệu</a></li>
                                 <li><a href="">Liên hệ</a></li>
                             </ul>
-                            <div class="flex w-[260px] h-14 rounded-2xl">
-                                <div
-                                    class="relative justify-center items-center bg-phone-num w-full bg-no-repeat bg-contain">
-                                    <div class="flex justify-center items-center gap-4 absolute top-1 left-1">
-                                        <img src="../img/header-footer/phone.png">
-                                        <div class=" ">
-                                            Hotline: 0123 456 789
-                                        </div>
+                            <div class="relative w-[285px] h-14 rounded-2xl bg-phone-num  bg-no-repeat bg-cover">
+                                <div class="flex justify-center items-center gap-4 absolute top-[6px] left-[6px]">
+                                    <img src="../img/header-footer/phone.png">
+                                    <div class="">
+                                        Hotline: 0123 456 789
                                     </div>
                                 </div>
+
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
     </header>
     <main>
         <!-- banner hero -->
         <section>
             <div
-                class="w-full pt-[129.46%]  bg-hero bg-cover bg-center bg-no-repeat relative md:pt-[72.94%] xl:pt-[43.54%]">
-                <div class="bg-hero-tranparent absolute bottom-0 z-10  w-full h-full">
-                    <div
-                        class="mt-[42.03%] mx-[5.31%] md:mt-[20.86%] md:w-[536px] md:h-[114px] md:mx-auto xl:mt-[10.52%] ">
-                        <div class="font-montserrat text-center text-primary-1">
-                            <div class="text-heading font-semibold">TwinCity Park</div>
-                            <div class="mt-6 font-normal text-title-2 opacity-60 md:whitespace-nowrap">The modern
-                                buildings
-                                of the
-                                city
-                                skyscrapers</div>
-                        </div>
+                class="w-full pt-[129.46%]  bg-hero bg-cover bg-center bg-no-repeat relative md:pt-[72.94%] xl:pt-[836px]">
+                <div class="bg-hero-transparent absolute bottom-0 z-1 w-full h-[50%] xl:h-[494px]"></div>
+                <div class="absolute top-[31.52%] w-full flex justify-center md:top-[27.84%] xl:top-[202px]">
+                    <div class="font-montserrat text-center text-primary-1">
+                        <div class="text-heading font-semibold">TwinCity Park</div>
+                        <div class="mt-6 font-normal text-title-2 opacity-60 md:whitespace-nowrap">The modern
+                            buildings
+                            of the
+                            city
+                            skyscrapers</div>
                     </div>
                 </div>
                 <!-- Form thong tin -->
                 <div
-                    class="w-full mx-auto  absolute top-[400px] left-0  md:top-[462px] xl:top-[400px] lg:px-2 2xl:px-0">
+                    class="w-full mx-auto  absolute top-[400px] left-0  md:top-[462px] xl:top-[600px] lg:px-2 2xl:px-0">
                     <div class="bg-white py-8 shadow-form-shadow mx-[4.83%] md:mx-[1.92%] xl:max-w-7xl xl:mx-auto ">
                         <div
                             class="grid grid-cols-1 gap-7 px-9 md:grid-cols-2 md:gap-x-16 md:gap-y-8 md:px-[7.98%] xl:grid-cols-4 xl:gap-[4.55%] xl:px-[8.75%] ">
                             <div class="w-full border-b-2 border-neutral-3-300">
                                 <div class="text-body-1 text-neutral-400 uppercase">Họ tên</div>
-                                <div class="capitalize font-normal text-neutral-1-900 text-button  pb-2 mt-4">
-                                    Nguyen binh
-                                </div>
+                                <input
+                                    class=" font-normal text-neutral-1-900 text-button  pb-2 mt-4 w-full focus:outline-none"
+                                    value="Nguyen binh">
                             </div>
                             <div class="w-full border-b-2 border-neutral-3-300">
                                 <div class="text-body-1 text-neutral-400 uppercase">email</div>
-                                <div class=" font-normal text-neutral-1-900 text-button  pb-2 mt-4">
-                                    Example@gmail.com
-                                </div>
+                                <input
+                                    class=" font-normal text-neutral-1-900 text-button  pb-2 mt-4 w-full focus:outline-none"
+                                    value="Example@gmail.com">
                             </div>
+
                             <div class="w-full border-b-2 border-neutral-3-300">
                                 <div class="text-body-1 text-neutral-400 uppercase">số điện thoại</div>
-                                <div class=" font-normal text-neutral-1-900 text-button  pb-2 mt-4">
-                                    0123456789
-                                </div>
+                                <input
+                                    class=" font-normal text-neutral-1-900 text-button  pb-2 mt-4 w-full focus:outline-none "
+                                    value="0123456789">
                             </div>
                             <div class="flex items-center w-[68.54%] md:w-[100%]">
                                 <button
@@ -103,11 +99,10 @@
         </section>
         <!--  introduce video -->
         <section>
-
-            <div class="w-full mx-auto xl:max-w-7xl px-0 lg:px-2 2xl:px-0">
+            <div class="w-full mx-auto xl:max-w-7xl lg:px-2 2xl:px-0">
                 <div class="mt-[80.19%] md:mt-[20.22%]  xl:mt-[4.17%] xl:mx-[8.51%]">
-                    <div class=" relative pt-[97.34%] md:pt-[47.96%] xl:pt-[49.06%] ">
-                        <img class="absolute w-full h-full top-0 left-0 object-cover md:object-contain  xl:object-cover"
+                    <div class=" relative pt-[97.34%] md:pt-[47.96%] xl:pt-[628px] ">
+                        <img class="absolute w-full h-full top-0 left-0 object-cover md:object-contain xl:object-cover"
                             src="../img/introduce/introduce-video.png" alt="">
                         <img class="absolute top-[39.37%] left-[40.7%] md:top-[40.25%] md:left-[45.01%] xl:top-[43.94%] xl:left-[46.23%]"
                             src="../img/introduce/play-btn.png" alt="">
@@ -115,26 +110,45 @@
                     </div>
                 </div>
                 <div
-                    class="grid grid-cols-1 gap-10 mt-10 px-[15.22%] md:px-[34.77%] xl:grid-cols-3 xl:gap-40 xl:px-[8.51%]">
-                    <div class="flex items-center gap-x-8">
-                        <img src="../img/introduce/house.png" alt="">
-                        <div class="flex flex-col">
+                    class="grid grid-cols-1 gap-10 mt-10 px-[15.22%] md:px-[34.77%] xl:grid-cols-3 xl:gap-36 xl:px-[8.51%]  whitespace-nowrap">
+                    <div class="flex items-center gap-x-[30px]">
+                        <div
+                            class="bg-ellipse-3 w-[100px] h-[100px]  rounded-full flex justify-center items-center relative">
+                            <div
+                                class="bg-primary-4 w-[84px] h-[84px] rounded-full absolute top-2 left-2 flex  justify-center items-center">
+                                <img class="" src="../img/introduce/house.png" alt="">
+                            </div>
+                        </div>
+                        <div class="flex flex-col flex-nowrap">
                             <div class="font-normal text-body-4 text-primary-1">Tổng số căn
                             </div>
-                            <div class="font-bold text-title-3 text-neutral-1-900 whitespace-nowrap">2482 căn</div>
+                            <div class="font-bold text-title-3 text-neutral-1-900 ">2482 căn</div>
                         </div>
                     </div>
-                    <div class="flex items-center gap-x-8">
-                        <img src="../img/introduce/tree.png" alt="">
-                        <div class="flex flex-col">
-                            <div class="font-normal text-body-4 text-primary-1">Tiện ích nội khu
+                    <div class="flex items-center gap-x-9">
+                        <div
+                            class="bg-ellipse-3 w-[100px] h-[100px]  rounded-full flex justify-center items-center relative">
+                            <div
+                                class="bg-primary-4 w-[84px] h-[84px] rounded-full absolute top-2 left-2 flex  justify-center items-center">
+                                <img class="" src="../img/introduce/tree.png" alt="">
+                            </div>
+                        </div>
+                        <div class="flex flex-col flex-nowrap">
+                            <div class="font-normal text-body-4 text-primary-1  ">Tiện ích nội khu
                             </div>
                             <div class="font-bold text-title-3 text-neutral-1-900">77%</div>
                         </div>
                     </div>
-                    <div class="flex items-center gap-x-8">
-                        <img src="../img/introduce/building.png" alt="">
-                        <div class="flex flex-col">
+                    <div class="flex items-center gap-x-9">
+
+                        <div
+                            class="bg-ellipse-3 w-[100px] h-[100px]  rounded-full flex justify-center items-center relative">
+                            <div
+                                class="bg-primary-4 w-[84px] h-[84px] rounded-full absolute top-2 left-2 flex  justify-center items-center">
+                                <img class="" src="../img/introduce/building.png" alt="">
+                            </div>
+                        </div>
+                        <div class="flex flex-col flex-nowrap">
                             <div class="font-normal text-body-4 text-primary-1">Tổng số block
                             </div>
                             <div class="font-bold text-title-3 text-neutral-1-900">6 block</div>
@@ -146,22 +160,27 @@
         <!-- banner 2 -->
         <section>
             <div
-                class="w-full mt-20 bg-banner-2 bg-cover bg-center bg-no-repeat relative pt-[109.18%] md:pt-[53.12%] xl:pt-[35.31%] lg:px-2 2xl:px-0">
-                <div class="bg-banner-2-transparent absolute top-0 w-full h-full"></div>
-                <div class="w-full mx-auto xl:max-w-7xl absolute top-0">
-                    <div
-                        class=" mx-[4.83%] my-[13.53%] md:my-[7.67%] md:ml-[50.48%] md:mr-[1.92%] xl:mt-[6.81%] xl:ml-[51.29%] xl:mr-0 ">
-                        <div class="text-primary-2 text-title-5 font-bold "> TwinCity Park
-                            <span class="text-primary-1 "> - Căn hộ sang trọng, tiện ích đẳng
-                                cấp
-                            </span>
+                class="w-full mx-auto  mt-20 bg-banner-2 bg-cover bg-center bg-no-repeat relative pt-[452px] md:pt-[443px] xl:pt-[452px] lg:px-2 2xl:px-0">
+                <div class="bg-banner-2-transparent absolute top-0 left-0 w-full h-full"></div>
+                <div class="flex items-center w-full h-full xl:max-w-7xl">
+                    <div class="w-full  absolute top-0 left-0">
+                        <div
+                            class="w-[374px] mx-auto my-14 md:my-16 md:w-[392px] md:mr-5 xl:w-[624px] xl:ml-[50.85%] xl:mr-0">
+                            <div class="text-primary-2 text-title-5 font-bold "> TwinCity Park
+                                <span class="text-primary-1 "> - Căn hộ sang trọng, tiện ích đẳng
+                                    cấp
+                                </span>
+                            </div>
+                            <div class="font-normal text-body-2 text-secondary-2 mt-6 mb-14 md:mb-8 ">
+                                Dự án căn hộ <span class="font-bold">TwinCity Park</span> sở hữu tổng diện tích
+                                86.000
+                                m². Mật độ
+                                xây dựng chỉ chiếm
+                                khoảng 23% trên tổng diện tích</div>
+                            <button class="w-36 text-center text-button font-semibold bg-primary-1 text-white py-3">Nhận
+                                tư
+                                vấn</button>
                         </div>
-                        <div class="font-normal text-body-2 text-secondary-2 mt-6 mb-14 md:mb-8 ">
-                            Dự án căn hộ <span class="font-bold">TwinCity Park</span> sở hữu tổng diện tích 86.000
-                            m². Mật độ
-                            xây dựng chỉ chiếm
-                            khoảng 23% trên tổng diện tích</div>
-                        <button class="text-center bg-primary-1 text-white px-5 py-3">Nhận tư vấn</button>
                     </div>
                 </div>
             </div>
@@ -169,8 +188,8 @@
         <!-- section review -->
         <section>
             <div class="w-full mx-auto xl:max-w-7xl">
-                <div class="text-center mt-20 mx-[4.83%] mb-10 md:mx-[6.71%] xl:mx-[18.83%] xl:mb-14 ">
-                    <div class="font-bold text-primary-1 text-title-5 mx-[9.42%] mb-4 md:mx-auto">Lý do chọn mua căn hộ
+                <div class="text-center mt-20 mx-5 mb-10 md:mx-14 xl:mx-60 xl:mb-14 ">
+                    <div class="font-bold text-primary-1 text-title-5 mx-10 mb-4 md:mx-auto">Lý do chọn mua căn hộ
                         <span class="text-primary-2"> Twincity Park</span>
                     </div>
                     <p class="text-button text-secondary-2">Dự án có quy mô lớn nhất Quận 12 hiện nay,
@@ -180,41 +199,52 @@
                 </div>
                 <div
                     class="grid grid-cols-1 gap-7 w-[83.57%] mx-auto md:w-[86.57%] md:grid-cols-2 md:gap-10 xl:w-full xl:grid-cols-3 lg:px-2 2xl:px-0">
-                    <div class="relative h-full w-full">
-                        <img class="object-cover w-full" src="../img/section-review/noi-that-sang-trong.png" alt="">
-                        <div class="absolute bottom-0 h-1/2 w-full bg-review-transparent"></div>
-                        <div class="absolute bottom-10 left-10 right-[116px] font-semibold text-title-4 text-white">
-                            Nội thất sang trọng</div>
-                    </div>
-                    <div class="relative h-full w-full">
-                        <img class="object-cover w-full" src="../img/section-review/da-dang-can-ho.png" alt="">
-                        <div class="absolute bottom-0 h-1/2 w-full bg-review-transparent"></div>
-                        <div class="absolute bottom-10 left-10 right-[116px] font-semibold text-title-4 text-white">
-                            Đa dạng loại căn hộ</div>
-                    </div>
-                    <div class="relative h-full w-full">
-                        <img class="object-cover w-full" src="../img/section-review/cong-vien-noi-khu.png" alt="">
-                        <div class="absolute bottom-0 h-1/2 w-full bg-review-transparent"></div>
-                        <div class="absolute bottom-10 left-10 right-[116px] font-semibold text-title-4 text-white">
-                            Công viên nội khu</div>
-                    </div>
-                    <div class="relative h-full w-full">
-                        <img class="object-cover w-full" src="../img/section-review/khu-vui-choi-tre-em.png" alt="">
-                        <div class="absolute bottom-0 h-1/2 w-full bg-review-transparent"></div>
-                        <div class="absolute bottom-10 left-10 right-[116px] font-semibold text-title-4 text-white">
-                            Khu vui chơi trẻ em</div>
-                    </div>
-                    <div class="relative h-full w-full">
-                        <img class="object-cover w-full" src="../img/section-review/phong-tap-the-thao.png" alt="">
-                        <div class="absolute bottom-0 h-1/2 w-full bg-review-transparent"></div>
-                        <div class="absolute bottom-10 left-10 right-[116px] font-semibold text-title-4 text-white">
-                            Phòng tập thể thao</div>
-                    </div>
-                    <div class="relative h-full w-full">
-                        <img class="object-cover w-full" src="../img/section-review/phong-sinh-hoat-cong-dong.png"
+                    <div class="relative h-[462px] w-full md:h-[454px] xl:h-[533px]">
+                        <img class="object-cover h-full w-full" src="../img/section-review/noi-that-sang-trong.png"
                             alt="">
                         <div class="absolute bottom-0 h-1/2 w-full bg-review-transparent"></div>
-                        <div class="absolute bottom-10 left-10 right-[116px] font-semibold text-title-4 text-white">
+                        <div
+                            class="absolute bottom-10 left-10 h-[94px] max-w-[191px] break-words font-bold text-title-4 text-white md:left-[34px] xl:left-10 xl:max-w-[191px] ">
+                            Nội thất sang trọng</div>
+                    </div>
+
+                    <div class="relative h-[462px] w-full md:h-[454px] xl:h-[533px]">
+                        <img class="object-cover h-full w-full" src="../img/section-review/da-dang-can-ho.png" alt="">
+                        <div class="absolute bottom-0 h-1/2 w-full bg-review-transparent"></div>
+                        <div
+                            class="absolute bottom-10 left-10 h-[94px] max-w-[191px] break-words font-bold text-title-4 text-white md:left-[34px] xl:left-10 xl:max-w-[221px] ">
+                            Đa dạng loại căn hộ</div>
+                    </div>
+                    <div class="relative h-[462px] w-full md:h-[454px] xl:h-[533px]">
+                        <img class="object-cover  h-full w-full" src="../img/section-review/cong-vien-noi-khu.png"
+                            alt="">
+                        <div class="absolute bottom-0 h-1/2 w-full bg-review-transparent"></div>
+                        <div
+                            class="absolute bottom-10 left-10 h-[94px] max-w-[191px] break-words font-bold text-title-4 text-white md:left-[34px] xl:left-10 xl:max-w-[221px] ">
+                            Công viên nội khu</div>
+                    </div>
+                    <div class="relative h-[462px] w-full md:h-[454px] xl:h-[533px]">
+                        <img class="object-cover h-full w-full" src="../img/section-review/khu-vui-choi-tre-em.png"
+                            alt="">
+                        <div class="absolute bottom-0 h-1/2 w-full bg-review-transparent"></div>
+                        <div
+                            class="absolute bottom-10 left-10 h-[94px] max-w-[191px] break-words font-bold text-title-4 text-white md:left-[34px] xl:left-10 xl:max-w-[221px] ">
+                            Khu vui chơi trẻ em</div>
+                    </div>
+                    <div class="relative h-[462px] w-full md:h-[454px] xl:h-[533px]">
+                        <img class="object-cover h-full w-full" src="../img/section-review/phong-tap-the-thao.png"
+                            alt="">
+                        <div class="absolute bottom-0 h-1/2 w-full bg-review-transparent"></div>
+                        <div
+                            class="absolute bottom-10 left-10 h-[94px] max-w-[191px] break-words font-bold text-title-4 text-white md:left-[34px] xl:left-10 xl:max-w-[221px] ">
+                            Phòng tập thể thao</div>
+                    </div>
+                    <div class="relative h-[462px] w-full md:h-[454px] xl:h-[533px]">
+                        <img class="object-cover h-full w-full"
+                            src="../img/section-review/phong-sinh-hoat-cong-dong.png" alt="">
+                        <div class="absolute bottom-0 h-1/2 w-full bg-review-transparent"></div>
+                        <div
+                            class="absolute bottom-10 left-10 h-[94px] max-w-[258px] break-words font-bold text-title-4 text-white md:left-[34px] xl:left-10 xl:max-w-[299px] ">
                             Phòng sinh hoạt cộng đồng</div>
                     </div>
                 </div>
@@ -222,13 +252,13 @@
         </section>
         <!-- banner 3 -->
         <section>
-            <div class="w-full  bg-banner-3  bg-cover bg-center bg-no-repeat relative mt-5 md:mt-0 lg:px-2 2xl:px-0">
-                <div class="bg-banner-3-transparent absolute top-0 w-full h-full"></div>
+            <div class="w-full  bg-banner-3  bg-cover bg-center bg-no-repeat relative  ">
+                <div class="bg-banner-3-transparent absolute top-0 "></div>
                 <div
-                    class="w-full mx-auto xl:max-w-7xl relative pt-[115.94%] mt-12 md:pt-[57.67%] xl:pt-[33.39%] xl:mt-[4.16%] ">
+                    class="w-full mx-auto xl:max-w-7xl relative pt-[480px] mt-12 md:mt-20 xl:pt-[641px] lg:px-2 2xl:px-0">
                     <div
-                        class="absolute top-0 left-0 bg-white mx-[4.83%] mt-[19.32%] md:max-w-[498px] md:max-h-[321px] md:my-[9.59%] md:ml-[6.71%] xl:my-[4.14%] xl:ml-0">
-                        <div class="px-6 py-7 md:px-11 ">
+                        class="absolute top-0 left-0 bg-white mx-5 mt-20 md:max-w-[498px] md:max-h-[321px] md:mx-11 xl:my-40 xl:ml-2 lg:mx-2 2xl:px-0">
+                        <div class="px-6 py-7 md:px-11">
                             <div class="text-title-3 text-primary-1 font-bold">Căn hộ<span class="text-primary-3">
                                     2 phòng ngủ</span>
                             </div>
@@ -260,29 +290,34 @@
                         </div>
                     </div>
                 </div>
+            </div>
         </section>
     </main>
     <footer>
-        <div class="w-full bg-secondary-1 mt-5 md:mt-0 lg:px-2 2xl:px-0">
+        <div class="w-full bg-secondary-1 mt-5 md:mt-0 lg:px-2 2xl:px-0 ">
             <div
-                class="relative mx-auto xl:max-w-7xl pt-[120.29%] flex justify-items-center md:pt-[43.17%] xl:pt-[16.95%]">
+                class="relative w-full mx-auto xl:max-w-7xl pt-[498px] flex justify-items-center md:pt-[360px] xl:pt-[217px]">
                 <div
-                    class="absolute top-[11.65%] left-[33.57%] w-40 h-10 grid grid-cols-1 gap-6 md:top-[16.11%] md:left-[18.71%] xl:top-[24.88%] xl:left-0">
-                    <img src="../img/header-footer/logo-white.png" alt="">
-                    <div class="font-normal text-button text-white">An tâm phát triển</div>
+                    class="absolute top-0 left-0 flex flex-col w-full h-full items-center pt-14 gap-[46px] md:w-[515px] md:ml-[18.7%] md:items-start xl:gap-[360px] xl:w-full xl:flex-row xl:items-start xl:ml-0">
+                    <div class=" w-40  grid grid-cols-1 gap-6 ">
+                        <img src="../img/header-footer/logo-white.png" alt="">
+                        <div class="font-normal text-button text-white">An tâm phát triển</div>
+                    </div>
+                    <div class="flex flex-col gap-11 items-center md:flex-row md:gap-[190px] xl:gap-[360px]">
+                        <ul class="grid grid-cols-1 gap-4 md:order-last xl:order-none">
+                            <li><a class="font-normal text-button text-white" href="">Giới thiệu</a></li>
+                            <li><a class="font-normal text-button text-white" href="">Tiện ích</a></li>
+                            <li><a class="font-normal text-button text-white" href="">Đăng ký</a></li>
+                        </ul>
+                        <ul class=" grid grid-cols-1 gap-4 text-center md:text-left">
+                            <li><a class="font-normal text-button text-white" href="">12 CN1, Sơn kỳ, Tân Phú,
+                                    TP.HCM</a>
+                            </li>
+                            <li><a class="font-normal text-button text-white" href="">032 2323 568</a></li>
+                            <li><a class="font-normal text-button text-white" href="">contact@tcons.com</a></li>
+                        </ul>
+                    </div>
                 </div>
-                <ul
-                    class="absolute top-[38.55%] left-[40.1%] grid grid-cols-1 gap-4 md:top-[55.83%] md:left-[72.06%] xl:top-[24.88%] xl:left-[42.73%]">
-                    <li><a class="font-normal text-button text-white" href="">Giới thiệu</a></li>
-                    <li><a class="font-normal text-button text-white" href="">Tiện ích</a></li>
-                    <li><a class="font-normal text-button text-white" href="">Đăng ký</a></li>
-                </ul>
-                <ul
-                    class="absolute top-[68.07%] left-[17.15%] grid grid-cols-1 gap-4 text-center md:top-[55.83%] md:left-[18.71%] md:text-left xl:top-[24.88%] xl:left-[76.88%]">
-                    <li><a class="font-normal text-button text-white" href="">12 CN1, Sơn kỳ, Tân Phú, TP.HCM</a></li>
-                    <li><a class="font-normal text-button text-white" href="">032 2323 568</a></li>
-                    <li><a class="font-normal text-button text-white" href="">contact@tcons.com</a></li>
-                </ul>
             </div>
         </div>
     </footer>
