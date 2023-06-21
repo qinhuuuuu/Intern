@@ -202,7 +202,8 @@ const COLORS = {
     50: '#FFF0F5',
   },
   'ellipse-3': "rgba(232, 245, 253, 0.3)",
-
+  'phone-header': "rgba(255, 255, 255, 0.5)",
+  'dot': "#E8F5FD",
 }
 
 function genarateColorTDS() {
@@ -294,12 +295,12 @@ module.exports = {
       backgroundImage: {
         'hero': "url('/src/img/banner/banner-section-1-desktop.png')",
         'hero-transparent': "linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.333333) 24.48%, #FFFFFF 100%)",
-        'phone-num': "url('/src/img/header-footer/rectangle-4.png')",
         'banner-2': "url('/src/img/banner/banner-2.png')",
         'banner-2-transparent': "url('/src/img/banner/banner-2-transparent.png')",
         'review-transparent': "linear-gradient(180deg, rgba(4, 21, 45, 0) 0%, rgba(4, 18, 38, 0.76) 50.51%, rgba(4, 18, 38, 0.88) 100%)",
         'banner-3': "url('/src/img/banner-3/background.png')",
         'banner-3-transparent': "url('/src/img/banner-3/banner-3-transparent.png')",
+        'khach-hang-noi-gi-person-1': "url('/src/img/about/section-2-doi-ngu-nhan-vien/person-1.jpg')",
         'section-3-khach-hang-noi-gi': "url('/src/img/about/section-3-khach-hang-noi-gi/background-section3.png')",
       },
       boxShadow: {
@@ -311,6 +312,10 @@ module.exports = {
       },
       aspectRatio: {
         '10/7': '10/7',
+        '290/222': '290/222',
+        '1280/500': '128/50',
+        '374/320': '374/320',
+        '720/400': '720/400',
       },
     },
   },

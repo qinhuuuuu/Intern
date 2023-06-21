@@ -12,46 +12,56 @@
 
 <body class="font-mulish w-screen overflow-x-hidden">
     <header>
-        <div class="w-full bg-transparent text-primary-1 absolute top-0 z-10 ">
-            <div class="xl:max-w-7xl mx-auto w-full">
-                <div class="py-8 px-4">
-                    <div class="grid grid-cols-2">
-                        <!-- logo -->
-                        <div class="flex items-center">
-                            <a href="index.html" class="flex"><img src="../img/header-footer/logo.png" alt=""></a>
-                        </div>
-                        <!-- icon -->
-                        <span class="flex justify-end xl:hidden">
-                            <i class="twi-19-menu-fill text-[40px] leading-[40px] text-white"></i>
-                        </span>
-                        <!-- menu desktop -->
-                        <div class="hidden xl:flex gap-[120px] items-center  font-normal text-body-5 ">
-                            <ul class="flex gap-[72px]">
-                                <li><a class="text-primary-2" href="about.html">Giới thiệu</a></li>
-                                <li><a class="text-primary-1" href="contact.html">Liên hệ</a></li>
-                            </ul>
-                            <div class="relative w-[285px] h-14 rounded-2xl bg-phone-num  bg-no-repeat bg-cover">
-                                <div class="flex justify-center items-center gap-4 absolute top-[6px] left-[6px]">
-                                    <img src="../img/header-footer/phone.png">
-                                    <div class="">
-                                        Hotline: 0123 456 789
-                                    </div>
+        <div class="w-full bg-transparent text-primary-1 absolute top-0 z-10 h-full">
+            <div class="xl:max-w-7xl mx-auto w-full h-full">
+                <div class="py-8  w-full h-full">
+                    <!-- logo -->
+                    <div class="flex float-left h-fit px-4">
+                        <a href="index.html" class="flex"><img src="../img/header-footer/logo.png" alt=""></a>
+                    </div>
+                    <div class=" xl:hidden ">
+                        <button
+                            class="dropbtn twi-19-menu-fill float-right text-[40px] leading-[40px] text-white px-4 "></button>
+                        <ul class="dropdown-content  w-full h-full pt-5 hidden bg-white overflow-auto ">
+                            <a class="text-primary-1 px-6 py-4 block hover:bg-slate-300 border-b-slate-300 border-solid border-b-[1px]"
+                                href="index.html">Trang chủ</a>
+                            <a class="text-primary-2 px-6 py-4 block hover:bg-slate-300 border-b-slate-300 border-solid border-b-[1px]"
+                                href="about.html">Giới
+                                thiệu</a>
+                            <a class="text-primary-1 px-6 py-4 block hover:bg-slate-300 border-b-slate-300 border-solid border-b-[1px]"
+                                href="contact.html">Liên hệ</a>
+                        </ul>
+                    </div>
+                    <!-- menu desktop -->
+                    <div class="hidden xl:flex gap-[120px] items-center  font-normal text-body-5 float-right mr-4">
+                        <ul class="flex gap-[72px]">
+                            <li><a class="hover:text-primary-2 text-primary-1" href="about.html">Giới thiệu</a></li>
+                            <li><a class="text-primary-1 hover:text-primary-2" href="contact.html">Liên hệ</a></li>
+                        </ul>
+                        <div class="w-[285px]  h-[58px] rounded-[50px] bg-phone-header  bg-no-repeat bg-cover">
+                            <div class="flex items-center gap-4 h-full ml-[6px] cursor-pointer">
+                                <div
+                                    class="twi-19-call-fill text-neutral-1-900 text-[20px] bg-white rounded-full p-[13px]">
                                 </div>
-
+                                <div class="text-primary-1 font-normal text-body-5">
+                                    Hotline: 0123 456 789
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+        </div>
     </header>
     <main>
+        <!-- banner hero -->
         <section>
-            <div class="w-full pt-[480px]  bg-hero bg-cover bg-center bg-no-repeat relative xl:pt-[836px]">
+            <div class="w-full pt-[536px] bg-hero bg-cover bg-center bg-no-repeat relative md:pt-[608px] xl:pt-[836px]">
                 <div class="bg-hero-transparent absolute bottom-0 z-1 w-full h-[50%] xl:h-[494px]"></div>
-                <div class="absolute top-[33.75%] w-full flex justify-center md:top-[36.67%] xl:top-[202px]">
-                    <div class="font-montserrat text-center text-primary-1 flex flex-col gap-6">
+                <div class="absolute top-[174px] w-full flex justify-center md:top-[174px] xl:top-[202px]">
+                    <div class="font-montserrat text-center text-primary-1 px-[22px]">
                         <div class="text-heading font-semibold">TwinCity Park</div>
-                        <div class="font-normal text-title-2 opacity-60 md:whitespace-nowrap">The modern
+                        <div class="mt-6 font-normal text-title-2 opacity-60 md:whitespace-nowrap">The modern
                             buildings
                             of the
                             city
@@ -143,109 +153,111 @@
                         </div>
                         <div>
                             <button
-                                class="px-[67px] py-[15px] bg-primary-1 text-white font-semibold text-button absolute top-[569px] md:top-[303px] xl:top-[220px]">Liên
+                                class="px-[67px] py-[15px] bg-primary-1 text-white font-semibold text-button absolute top-[569px] md:top-[303px] xl:top-[220px] hover:bg-primary-2 active:translate-y-[2px]">Liên
                                 hệ</button>
                         </div>
                     </div>
                 </div>
         </section>
+
         <section>
-            <div class="bg-primary-4 pt-[399.03%] relative flex justify-center md:pt-[941px] xl:pt-[538px] ">
-                <div class="text-title-5 text-primary-1 font-bold absolute top-6 md:top-10">Đội ngũ nhân viên</div>
-                <div class=" w-full mx-auto xl:max-w-7xl ">
-                    <div
-                        class="absolute top-28 grid grid-cols-1 gap-10 px-[62px] md:top-[134px] md:px-[107px] md:grid-cols-2 xl:grid-cols-4 lg:px-2 2xl:px-0">
-                        <div>
-                            <img class="" src="../img/about/section-2-doi-ngu-nhan-vien/person-1.png" alt="">
-                            <div class="w-0 h-0 border-l-[290px] border-l-white border-solid 
+            <div class=" pt-6 pb-[60px] flex flex-col bg-primary-4 gap-10">
+                <div class="text-title-5 text-primary-1 font-bold  md:top-10 text-center">Đội ngũ nhân
+                    viên</div>
+                <div
+                    class=" w-full mx-auto xl:max-w-7xl r top-28 grid grid-cols-1 justify-items-center gap-10 md:top-[134px] md:px-[107px] md:grid-cols-2 xl:grid-cols-4 lg:px-2 2xl:px-0">
+                    <a href="#" class="w-[290px]">
+                        <img class=" aspect-290/222 object-cover w-full"
+                            style="clip-path: polygon(0 0, 100% 0, 100% 100%, 0 92.78%);"
+                            src="../img/about/section-2-doi-ngu-nhan-vien/person-1.jpg" alt="">
+                        <div class="w-0 h-0 border-l-[290px] border-l-white border-solid 
                         border-t-[16px] border-t-transparent"></div>
-                            <div class="h-[102px] w-[290px] bg-white flex flex-col pt-[14px] pb-4 px-6">
-                                <div class="text-primary-1 text-title-7 font-bold">Hoàng Long</div>
-                                <div class="text-button font-normal text-neutral-1-500">Project Manager</div>
-                            </div>
+                        <div class="h-[102px] w-[290px] bg-white flex flex-col pt-[14px] pb-4 px-6">
+                            <div class="text-primary-1 text-title-7 font-bold">Hoàng Long</div>
+                            <div class="text-button font-normal text-neutral-1-500">Project Manager</div>
                         </div>
-                        <div>
-                            <img class="" src="../img/about/section-2-doi-ngu-nhan-vien/person-2.png" alt="">
-                            <div class="w-0 h-0 border-l-[290px] border-l-white border-solid 
+                    </a>
+                    <a href="#" class="w-[290px]">
+                        <img class=" aspect-290/222 object-cover w-full"
+                            style="clip-path: polygon(0 0, 100% 0, 100% 100%, 0 92.78%);"
+                            src="../img/about/section-2-doi-ngu-nhan-vien/person-2.jpg" alt="">
+                        <div class="w-0 h-0 border-l-[290px] border-l-white border-solid 
                         border-t-[16px] border-t-transparent"></div>
-                            <div class="h-[102px] w-[290px] bg-white flex flex-col pt-[14px] pb-4 px-6">
-                                <div class="text-primary-1 text-title-7 font-bold">Hoàng Long</div>
-                                <div class="text-button font-normal text-neutral-1-500">Project Manager</div>
-                            </div>
+                        <div class="h-[102px] w-[290px] bg-white flex flex-col pt-[14px] pb-4 px-6">
+                            <div class="text-primary-1 text-title-7 font-bold">Hoàng Long</div>
+                            <div class="text-button font-normal text-neutral-1-500">Project Manager</div>
                         </div>
-                        <div>
-                            <img class="" src="../img/about/section-2-doi-ngu-nhan-vien/person-3.png" alt="">
-                            <div class="w-0 h-0 border-l-[290px] border-l-white border-solid 
+                    </a>
+                    <a href="#" class="w-[290px]">
+                        <img class=" aspect-290/222 object-cover w-full"
+                            style="clip-path: polygon(0 0, 100% 0, 100% 100%, 0 92.78%);"
+                            src="../img/about/section-2-doi-ngu-nhan-vien/person-3.jpg" alt="">
+                        <div class="w-0 h-0 border-l-[290px] border-l-white border-solid 
                         border-t-[16px] border-t-transparent"></div>
-                            <div class="h-[102px] w-[290px] bg-white flex flex-col pt-[14px] pb-4 px-6">
-                                <div class="text-primary-1 text-title-7 font-bold">Hoàng Long</div>
-                                <div class="text-button font-normal text-neutral-1-500">Project Manager</div>
-                            </div>
+                        <div class="h-[102px] w-[290px] bg-white flex flex-col pt-[14px] pb-4 px-6">
+                            <div class="text-primary-1 text-title-7 font-bold">Hoàng Long</div>
+                            <div class="text-button font-normal text-neutral-1-500">Project Manager</div>
                         </div>
-                        <div>
-                            <img class="" src="../img/about/section-2-doi-ngu-nhan-vien/person-4.png" alt="">
-                            <div class="w-0 h-0 border-l-[290px] border-l-white border-solid 
+                    </a>
+                    <a href="#" class="w-[290px]">
+                        <img class=" aspect-290/222 object-cover w-full"
+                            style="clip-path: polygon(0 0, 100% 0, 100% 100%, 0 92.78%);"
+                            src="../img/about/section-2-doi-ngu-nhan-vien/person-4.jpg" alt="">
+                        <div class="w-0 h-0 border-l-[290px] border-l-white border-solid 
                         border-t-[16px] border-t-transparent"></div>
-                            <div class="h-[102px] w-[290px] bg-white flex flex-col pt-[14px] pb-4 px-6">
-                                <div class="text-primary-1 text-title-7 font-bold">Hoàng Long</div>
-                                <div class="text-button font-normal text-neutral-1-500">Project Manager</div>
-                            </div>
+                        <div class="h-[102px] w-[290px] bg-white flex flex-col pt-[14px] pb-4 px-6">
+                            <div class="text-primary-1 text-title-7 font-bold">Hoàng Long</div>
+                            <div class="text-button font-normal text-neutral-1-500">Project Manager</div>
                         </div>
-                    </div>
+                    </a>
+
                 </div>
             </div>
         </section>
+
         <section>
             <div class="xl:max-w-7xl mx-auto w-full">
                 <div
                     class="flex flex-col mx-7 py-10 md:mx-[92px] md:pt-20 lg:px-2 2xl:px-0 xl:mx-0 xl:pt-24 xl:pb-[60px]">
                     <div
-                        class="snap-x overflow-x-scroll snap-mandatory flex gap-x-10 pb-6 mb-14 md:gap-x-[85px] xl:overflow-hidden xl:gap-x-[120px] no-scrollbar">
-                        <img class="snap-end object-contain" src="../img/about/section-3-khach-hang-noi-gi/logo-1.png"
-                            alt="">
-
-                        <img class="snap-end  object-contain" src="../img/about/section-3-khach-hang-noi-gi/logo-2.png"
-                            alt="">
-
-                        <img class="snap-end  object-contain" src="../img/about/section-3-khach-hang-noi-gi/logo-3.png"
-                            alt="">
-
-                        <img class="snap-end  object-contain" src="../img/about/section-3-khach-hang-noi-gi/logo-4.png"
-                            alt="">
-
-                        <img class="snap-end  object-contain" src="../img/about/section-3-khach-hang-noi-gi/logo-5.png"
-                            alt="">
+                        class="overflow-x-scroll  flex gap-x-10 pb-6 mb-14 md:gap-x-[85px] xl:overflow-hidden xl:gap-x-[120px] no-scrollbar ">
+                        <a href="#"> <img class="object-contain"
+                                src="../img/about/section-3-khach-hang-noi-gi/logo-1.png" alt=""></a>
+                        <a href="#"> <img class="object-contain"
+                                src="../img/about/section-3-khach-hang-noi-gi/logo-2.png" alt=""></a>
+                        <a href="#"> <img class=" object-contain"
+                                src="../img/about/section-3-khach-hang-noi-gi/logo-3.png" alt=""></a>
+                        <a href="#"> <img class="object-contain"
+                                src="../img/about/section-3-khach-hang-noi-gi/logo-4.png" alt=""></a>
+                        <a href="#"> <img class="object-contain"
+                                src="../img/about/section-3-khach-hang-noi-gi/logo-5.png" alt=""></a>
                     </div>
                     <div
                         class="text-center text-title-4 font-bold text-primary-1 xl:font-montserrat xl:font-semibold xl:text-heading">
                         Khách hàng nói gì</div>
                 </div>
             </div>
-
             <div>
                 <div class="xl:relative">
                     <div class="max-w-[1920px] hidden xl:flex ">
-                        <div class="  mr-[600px] ">
+                        <div class="mr-[600px]">
                             <img class="aspect-10/7 h-[703px] object-cover"
                                 src="../img/about/section-3-khach-hang-noi-gi/background-section3.png" alt="">
                         </div>
                     </div>
-
-                    <div class=" w-full mx-auto xl:max-w-7xl  xl:absolute top-0 left-0 right-0  ">
-                        <div class="bg-primary-4 lg:px-2 2xl:px-0  w-full px-5 pt-[39px] pb-[75px] flex flex-col md:pl-10 md:pr-[136px] md:pb-9
-                    xl:pl-10  xl:pr-[150px] xl:w-[845px] xl:h-[394px] xl:mt-[154px] xl:ml-[435px] ">
+                    <div class=" w-full mx-auto xl:max-w-7xl">
+                        <div class="bg-primary-4 w-full px-5 pt-[39px] pb-[75px] flex flex-col md:pl-10 md:pr-[136px] md:pb-9
+                    xl:pl-10 xl:pr-[150px] xl:w-[845px] xl:h-[394px] xl:ml-[435px] xl:absolute top-[154px]">
                             <i class="twi-19-note-fill text-[60px] leading-[52px] text-primary-1"> </i>
                             <p
                                 class="font-normal  text-body-2 text-neutral-1-900 mt-[38px] mb-6  md:mt-[29px] md:mb-8 xl:align-top md:h-[111px]">
-                                It
-                                is a long established
-                                fact that a
-                                reader will be distracted by the readable content of a
-                                page when looking layout the point using Lorem Ipsum is that it has a more or less
-                                and
-                                normal distribution of letters, as opposed to look like readable English sites still
-                                in
-                                their infancy.</p>
+                                It is a long established fact that a reader will be distracted by the readable
+                                content
+                                of a page when looking layout the point using Lorem Ipsum is that it has a more or
+                                less
+                                and normal distribution of letters, as opposed to look like readable English sites
+                                still
+                                in their infancy.</p>
                             <div class="flex gap-60 xl:gap-[248px]">
                                 <div class="flex gap-x-6 md:ml-7">
                                     <img class="rounded-full h-24 w-24"
@@ -257,11 +269,18 @@
                                     </div>
                                 </div>
                                 <div class="hidden md:flex justify-end items-center gap-8">
-                                    <i class="twi-19-arrow-back-fill text-primary-1 leading-5 text-[24px] "></i>
-                                    <i class="twi-19-arrow-forward-fill text-primary-1 leading-5 text-[24px] "></i>
+                                    <i
+                                        class="twi-19-arrow-back-fill text-primary-1 leading-5 text-[24px] cursor-pointer hover:text-primary-2"></i>
+                                    <i
+                                        class="twi-19-arrow-forward-fill text-primary-1 leading-5 text-[24px]  cursor-pointer hover:text-primary-2"></i>
                                 </div>
                             </div>
                         </div>
+                    </div>
+                    <div class="md:hidden flex justify-center mt-5 gap-4">
+                        <button class="w-1.5 h-1.5 bg-primary-3 rounded-full"></button>
+                        <button class="w-1.5 h-1.5 bg-dot rounded-full"></button>
+                        <button class="w-1.5 h-1.5 bg-dot rounded-full"></button>
                     </div>
                 </div>
             </div>
@@ -274,21 +293,21 @@
                 <div
                     class="absolute top-0 left-0 flex flex-col w-full h-full items-center pt-14 gap-[46px] md:w-[515px] md:ml-[18.7%] md:items-start xl:gap-[360px] xl:w-full xl:flex-row xl:items-start xl:ml-0">
                     <div class=" w-40  grid grid-cols-1 gap-6 ">
-                        <img src="../img/header-footer/logo-white.png" alt="">
+                        <a href="index.html"><img src="../img/header-footer/logo-white.png" alt=""></a>
                         <div class="font-normal text-button text-white">An tâm phát triển</div>
                     </div>
                     <div class="flex flex-col gap-11 items-center md:flex-row md:gap-[190px] xl:gap-[360px]">
                         <ul class="grid grid-cols-1 gap-4 md:order-last xl:order-none">
-                            <li><a class="font-normal text-button text-white" href="">Giới thiệu</a></li>
-                            <li><a class="font-normal text-button text-white" href="">Tiện ích</a></li>
-                            <li><a class="font-normal text-button text-white" href="">Đăng ký</a></li>
+                            <li><a class="font-normal text-button text-white" href="#">Giới thiệu</a></li>
+                            <li><a class="font-normal text-button text-white" href="#">Tiện ích</a></li>
+                            <li><a class="font-normal text-button text-white" href="#">Đăng ký</a></li>
                         </ul>
                         <ul class=" grid grid-cols-1 gap-4 text-center md:text-left">
-                            <li><a class="font-normal text-button text-white" href="">12 CN1, Sơn kỳ, Tân Phú,
+                            <li><a class="font-normal text-button text-white" href="#">12 CN1, Sơn kỳ, Tân Phú,
                                     TP.HCM</a>
                             </li>
-                            <li><a class="font-normal text-button text-white" href="">032 2323 568</a></li>
-                            <li><a class="font-normal text-button text-white" href="">contact@tcons.com</a></li>
+                            <li><a class="font-normal text-button text-white" href="#">032 2323 568</a></li>
+                            <li><a class="font-normal text-button text-white" href="#">contact@tcons.com</a></li>
                         </ul>
                     </div>
                 </div>
