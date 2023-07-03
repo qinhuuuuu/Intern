@@ -10,40 +10,29 @@
 
 <body class="font-mulish">
     <header>
-        <div class="w-full bg-transparent text-primary-1 absolute top-0 z-10   h-full">
+        <div class="w-full bg-transparent text-primary-1  fixed top-0 z-10 h-full ">
             <div class="xl:max-w-7xl mx-auto w-full h-full">
-                <div class="py-8 px-4  w-full h-full">
-                    <!-- <div class="flex w-full h-full"> -->
+                <div class="py-8  w-full h-full">
                     <!-- logo -->
-                    <div class="flex float-left h-fit">
+                    <div class="flex float-left h-fit px-4">
                         <a href="index.html" class="flex"><img src="../img/header-footer/logo.png" alt=""></a>
                     </div>
-
-                    <!-- <div class="relative xl:hidden">
-                            <i
-                                class="twi-19-menu-fill float-right text-[40px] leading-[40px] text-white cursor-pointer"></i>
-                            <div class="absolute right-0 top-[100%] w-fit h-full menu-items hidden">
-                                <ul class=" bg-white gap-3 rounded-md shadow-lg cursor-pointer">
-                                    <li><a class="text-primary-1 block px-10 py-3" href="about.html">Giới
-                                            thiệu</a></li>
-                                    <li><a class="text-primary-1 block px-10 py-3" href="contact.html">Liên
-                                            hệ</a></li>
-                                </ul>
-                            </div>
-                        </div> -->
-                    <div class="dropdown mr-4 relative xl:hidden w-full h-full z-10">
+                    <div class=" xl:hidden">
+                        <!--  icon menu -->
                         <button
-                            class="dropbtn twi-19-menu-fill float-right text-[40px] leading-[40px] text-white"></button>
-                        <ul id="myDropdown"
-                            class="dropdown-content mt-10 bg-white gap-3 rounded-md shadow-lg absolute right-0 top-0 w-full h-full">
-                            <a href="index.html">Trang chủ</a>
-                            <a href="about.html">Giới thiệu</a>
-                            <a href="contact.html">Liên hệ</a>
+                            class="dropbtn twi-19-menu-fill float-right text-[40px] leading-[40px] text-white px-4 focus:outline-none"></button>
+                        <!-- list item -->
+                        <ul class="dropdown-content hidden w-full h-full pt-5 bg-white overflow-auto ">
+                            <a class="text-primary-2 px-6 py-4 block hover:bg-slate-300 border-b-slate-300 border-solid border-b-[1px]"
+                                href="index.html">Trang chủ</a>
+                            <a class="text-primary-1 px-6 py-4 block hover:bg-slate-300 border-b-slate-300 border-solid border-b-[1px]"
+                                href="about.html">Giới thiệu</a>
+                            <a class="text-primary-1 px-6 py-4 block hover:bg-slate-300 border-b-slate-300 border-solid border-b-[1px]"
+                                href="contact.html">Liên hệ</a>
                         </ul>
                     </div>
-                    <!-- </div> -->
                     <!-- menu desktop -->
-                    <div class="hidden xl:flex gap-[120px] items-center  font-normal text-body-5 ">
+                    <div class="hidden xl:flex gap-[120px] items-center  font-normal text-body-5 float-right mr-4">
                         <ul class="flex gap-[72px]">
                             <li><a class="hover:text-primary-2 text-primary-1" href="about.html">Giới thiệu</a></li>
                             <li><a class="text-primary-1 hover:text-primary-2" href="contact.html">Liên hệ</a></li>
@@ -60,18 +49,16 @@
                         </div>
                     </div>
                 </div>
-
             </div>
         </div>
     </header>
     <main>
         <!-- banner hero -->
         <section>
-            <div
-                class="w-full pt-[129.46%]  bg-hero bg-cover bg-center bg-no-repeat relative md:pt-[72.94%] xl:pt-[836px]">
+            <div class="w-full pt-[536px] bg-hero bg-cover bg-center bg-no-repeat relative md:pt-[608px] xl:pt-[836px]">
                 <div class="bg-hero-transparent absolute bottom-0 z-1 w-full h-[50%] xl:h-[494px]"></div>
-                <div class="absolute top-[31.52%] w-full flex justify-center md:top-[27.84%] xl:top-[202px]">
-                    <div class="font-montserrat text-center text-primary-1">
+                <div class="absolute top-[174px] w-full flex justify-center md:top-[174px] xl:top-[202px]">
+                    <div class="font-montserrat text-center text-primary-1 px-[22px]">
                         <div class="text-heading font-semibold">TwinCity Park</div>
                         <div class="mt-6 font-normal text-title-2 opacity-60 md:whitespace-nowrap">The modern
                             buildings
@@ -86,7 +73,7 @@
                     class="w-full mx-auto  absolute top-[400px] left-0  md:top-[462px] xl:top-[600px] lg:px-2 2xl:px-0">
                     <div class="bg-white py-8 shadow-form-shadow mx-[4.83%] md:mx-[1.92%] xl:max-w-7xl xl:mx-auto ">
                         <div
-                            class="grid grid-cols-1 gap-7 px-9 md:grid-cols-2 md:gap-x-16 md:gap-y-8 md:px-[7.98%] xl:grid-cols-4 xl:gap-[4.55%] xl:px-[8.75%] ">
+                            class="grid grid-cols-1 gap-7 px-9 md:grid-cols-2 md:gap-x-16 md:gap-y-8 md:px-16 xl:grid-cols-4 xl:gap-12 xl:px-28 ">
                             <div class="w-full border-b-2 border-neutral-3-300">
                                 <div class="text-body-1 text-neutral-400 uppercase">Họ tên</div>
                                 <input
@@ -99,7 +86,6 @@
                                     class=" font-normal text-neutral-1-900 text-button  pb-2 mt-4 w-full focus:outline-none"
                                     value="Example@gmail.com">
                             </div>
-
                             <div class="w-full border-b-2 border-neutral-3-300">
                                 <div class="text-body-1 text-neutral-400 uppercase">số điện thoại</div>
                                 <input
@@ -108,9 +94,8 @@
                             </div>
                             <div class="flex items-center w-[68.54%] md:w-[100%]">
                                 <button
-                                    class=" text-button-1 text-white bg-primary-1  h-[55px] px-[26.08%] md:px-[33.77%] xl:px-[26.07%] hover:bg-primary-2 active:translate-y-[2px]">Gửi
-                                    yêu
-                                    cầu</button>
+                                    class=" text-button-1 text-white bg-primary-1  h-[55px] px-[26.08%] whitespace-nowrap md:px-[33.77%] xl:px-[26.07%] hover:bg-primary-2 active:translate-y-[2px]">Gửi
+                                    yêu cầu</button>
                             </div>
                         </div>
                     </div>
@@ -120,19 +105,22 @@
         </section>
         <!--  introduce video -->
         <section>
-            <div class="w-full mx-auto xl:max-w-7xl lg:px-2 2xl:px-0">
-                <div class="mt-[80.19%] md:mt-[20.22%]  xl:mt-[4.17%] xl:mx-[8.51%]">
-                    <div class=" relative pt-[97.34%] md:pt-[47.96%] xl:pt-[628px] ">
-                        <img class="absolute w-full h-full top-0 left-0 object-cover md:object-contain xl:object-cover"
+            <div class="mt-[332px] md:mt-[152px] md:px-4 xl:mt-[78px] xl:px-[109px]">
+                <div class="w-full mx-auto xl:max-w-7xl">
+                    <div class=" relative aspect-414/403 w-full h-full md:aspect-1062/628">
+                        <img class="absolute top-0 left-0 w-full h-full object-cover  md:object-contain xl:object-cover"
                             src="../img/introduce/introduce-video.png" alt="">
-                        <img class="cursor-pointer absolute top-[39.37%] left-[40.7%] md:top-[40.25%] md:left-[45.01%] xl:top-[43.94%] xl:left-[46.23%]"
-                            src="../img/introduce/play-btn.png" alt="">
-                        <div class="bg-primary-1 bg-opacity-20 w-full h-full absolute top-0 md:hidden"></div>
+                        <div class="bg-primary-1 bg-opacity-20  h-full absolute top-0 md:hidden xl:block"></div>
+                        <div class=" absolute top-0 left-0 w-full h-full flex justify-center items-center">
+                            <!-- Thêm rounded-full để cursor-pointer chỉ nằm trong hình tròn -->
+                            <img class="cursor-pointer h-[77px] w-[77px] rounded-full"
+                                src="../img/introduce/play-btn.png" alt="">
+                        </div>
                     </div>
                 </div>
                 <div
-                    class="grid grid-cols-1 gap-10 mt-10 px-[15.22%] md:px-[34.77%] xl:grid-cols-3 xl:gap-36 xl:px-[8.51%]  whitespace-nowrap">
-                    <div class="flex items-center gap-x-[30px]">
+                    class="flex flex-col justify-center gap-10 mt-10 mx-auto w-[288px] md:w-[254px] xl:flex-row xl:gap-40 xl:w-full xl:mt-14  whitespace-nowrap xl:mx-0">
+                    <div class="flex gap-x-6 items-center xl:gap-x-[30px]">
                         <div class="bg-ellipse-3 w-[100px] h-[100px]  rounded-full flex justify-center items-center ">
                             <div
                                 class="twi-19-house-line text-primary-2 text-[41px]  bg-primary-4 w-[84px] h-[84px] rounded-full  flex justify-center items-center ">
@@ -144,7 +132,7 @@
                             <div class="font-bold text-title-3 text-neutral-1-900 ">2482 căn</div>
                         </div>
                     </div>
-                    <div class="flex items-center gap-x-9">
+                    <div class="flex items-center gap-x-6 xl:gap-x-[30px]">
                         <div class="bg-ellipse-3 w-[100px] h-[100px]  rounded-full flex justify-center items-center ">
                             <div
                                 class="twi-19-tree-line text-primary-2 text-[41px]  bg-primary-4 w-[84px] h-[84px] rounded-full  flex justify-center items-center ">
@@ -156,8 +144,7 @@
                             <div class="font-bold text-title-3 text-neutral-1-900">77%</div>
                         </div>
                     </div>
-                    <div class="flex items-center gap-x-9">
-
+                    <div class="flex items-center gap-x-6 xl:gap-x-[30px]">
                         <div class="bg-ellipse-3 w-[100px] h-[100px]  rounded-full flex justify-center items-center ">
                             <div
                                 class="twi-19-building-line text-primary-2 text-[41px]  bg-primary-4 w-[84px] h-[84px] rounded-full  flex justify-center items-center ">
@@ -175,7 +162,7 @@
         <!-- banner 2 -->
         <section>
             <div
-                class="w-full mx-auto  mt-20 bg-banner-2 bg-cover bg-center bg-no-repeat relative pt-[452px] md:pt-[443px] xl:pt-[452px] lg:px-2 2xl:px-0">
+                class="w-full mx-auto  mt-20 bg-banner-2 bg-cover bg-center bg-no-repeat relative pt-[452px] md:pt-[443px] xl:mt-[86px] xl:pt-[452px] lg:px-2 2xl:px-0">
                 <div class="bg-banner-2-transparent absolute top-0 left-0 w-full h-full"></div>
                 <div class="flex items-center w-full h-full xl:max-w-7xl">
                     <div class="w-full  absolute top-0 left-0">

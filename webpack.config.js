@@ -27,7 +27,7 @@ module.exports = {
   },
   devServer: {
     watchFiles: ['src/**/*'],
-    port: 1900,
+    port: 1901,
     hot: true
   },
   module: {

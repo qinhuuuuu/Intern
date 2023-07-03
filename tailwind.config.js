@@ -309,13 +309,22 @@ module.exports = {
       },
       animation: {
         'header': 'spin 300ms ease-in-out infinite',
-      },
+        'fade': 'fadeOut 5s ease-in-out',
+
+      }, keyframes: theme => ({
+        fadeOut: {
+          '0%': { backgroundColor: theme('colors.red.300') },
+          '100%': { backgroundColor: theme('colors.transparent') },
+        },
+      }),
       aspectRatio: {
         '10/7': '10/7',
         '290/222': '290/222',
         '1280/500': '128/50',
         '374/320': '374/320',
         '720/400': '720/400',
+        '414/403': '414/403',
+        '1062/628': '1062/628',
       },
     },
   },

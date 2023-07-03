@@ -24,36 +24,57 @@
     }
 }
 
-// .menu-items {
-//     display: none;
-//     /* Ẩn menu mặc định */
-// }
-
-// .menu-items.show {
-//     display: block;
-//     /* Hiển thị menu khi có lớp show */
-// }
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f1f1f1;
-    min-width: 160px;
-    overflow: auto;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    z-index: 1;
-}
-
-.dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-}
-
-.dropdown a:hover {
-    background-color: #ddd;
-}
-
 .show {
     display: block;
+}
+
+
+.slider-kinh-nghiem-lam-viec {
+    .bg-neutral-2-300 {
+        margin-top: 32px;
+    }
+
+    .slick-active .bg-neutral-2-300 {
+        background-color: #3E5575;
+    }
+
+    .slick-track {
+        display: flex;
+        gap: 16px;
+        justify-content: center;
+    }
+
+    .slick-dotted.slick-slider {
+        margin-bottom: 32px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+
+    .slider-kinh-nghiem-lam-viec .slick-track {
+        gap: 64px;
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    .slider-kinh-nghiem-lam-viec .slick-track {
+        gap: 38px;
+    }
+
+
+    .slick-dotted.slick-slider {
+        margin-bottom: 44px;
+    }
+}
+
+
+.slider-khach-hang-noi-gi {
+    .bg-dot {
+        margin-top: 20px;
+    }
+
+    .slick-active .bg-dot {
+        background-color: #0684E0;
+    }
+
 }
