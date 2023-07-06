@@ -16,7 +16,7 @@ window.addEventListener("load", function () {
   checkScreenSize();
 });
 
-// Kiểm tra kích thước màn hình khi thay đổi kích thước trình duyệt
+// khi thay đổi kích thước trình duyệt
 window.addEventListener("resize", function () {
   checkScreenSize();
 });
@@ -24,24 +24,23 @@ window.addEventListener("resize", function () {
 function checkScreenSize() {
   const screenWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
   if (screenWidth > 1280) {
-    cancelMenu();
+    if (dropdownContent[0].classList.contains("show")) {
+      cancelMenu();
+    }
   } else {
     dropbtn.onclick = openMenu;
-
   }
 }
 var isOpenMenu = false;
 function cancelMenu() {
-  if (dropdownContent[0].classList.contains("show")) {
-    for (let i = 0; i < dropdownContent.length; i++) {
-      dropdownContent[i].classList.remove("show");
-    }
-    if (main.classList.contains('hidden')) {
-      dropbtn.classList.remove('text-primary-1');
-      dropbtn.classList.add('text-white');
-      main.classList.remove('hidden');
-      footer.classList.remove('hidden');
-    }
+  for (let i = 0; i < dropdownContent.length; i++) {
+    dropdownContent[i].classList.remove("show");
+  }
+  if (main.classList.contains('hidden')) {
+    dropbtn.classList.remove('text-primary-1');
+    dropbtn.classList.add('text-white');
+    main.classList.remove('hidden');
+    footer.classList.remove('hidden');
   }
 }
 function openMenu() {

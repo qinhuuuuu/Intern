@@ -76,5 +76,57 @@
     .slick-active .bg-dot {
         background-color: #0684E0;
     }
+}
+
+// contact page
+.focus-border-input-contact::before,
+.focus-border-input-contact::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #2C333A;
+    transition: 0.3s;
+}
+
+.focus-border-input-contact::after {
+    top: auto;
+    bottom: 0;
+    left: auto;
+    right: 0;
+}
+
+.focus-border-input-contact i::before,
+.focus-border-input-contact i::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 2px;
+    height: 0;
+    background: #2C333A;
+    transition: 0.4s;
+}
+
+.focus-border-input-contact i::after {
+    left: auto;
+    right: 0;
+    top: auto;
+    bottom: 0;
+}
+
+.effect-8:focus~.focus-border-input-contact::before,
+.effect-8:focus~.focus-border-input-contact::after {
+    width: 100%;
+    transition: 0.3s;
+
+}
+
+.effect-8:focus~.focus-border-input-contact i::before,
+.effect-8:focus~.focus-border-input-contact i::after {
+    height: 100%;
+    transition: 0.4s;
 
 }

@@ -11,7 +11,7 @@
 
 <body class="font-mulish w-screen overflow-x-hidden">
     <header>
-        <div class="w-full bg-transparent text-primary-1 fixed top-0 z-10  ">
+        <div class=" w-full bg-transparent text-primary-1 fixed top-0 z-10  ">
             <div
                 class="relative mx-auto w-full py-8 px-4 flex items-center justify-between lg:px-2 xl:max-w-7xl 2xl:px-0">
                 <!-- logo -->
@@ -24,12 +24,12 @@
                     <ul
                         class="absolute top-full left-0 w-full dropdown-content hidden h-[screen-104px] text-body-5 bg-white overflow-auto xl:static xl:w-fit xl:flex xl:bg-transparent xl:gap-[72px]">
                         <li class=" border-b-slate-300 border-solid border-b-[1px] px-6 py-4  xl:hidden"><a
-                                class=" text-primary-1 hover:text-primary-2  hover:bg-slate-300" href="about.html">Trang
+                                class=" text-primary-1 hover:bg-slate-300" href="index.html">Trang
                                 chủ</a></li>
-                        <li class=" border-b-slate-300 border-solid border-b-[1px]  px-6 py-4 "><a
-                                class="text-primary-1 hover:text-primary-2 xl:p-0 hover:bg-slate-300"
+                        <li class=" border-b-slate-300 border-solid border-b-[1px]  px-6 py-4 xl:border-none"><a
+                                class="hover:text-primary-2 xl:p-0 text-primary-1  hover:bg-slate-300"
                                 href="about.html">Giới thiệu</a></li>
-                        <li class=" border-b-slate-300 border-solid border-b-[1px]  px-6 py-4 "><a
+                        <li class=" border-b-slate-300 border-solid border-b-[1px]  px-6 py-4  xl:border-none"><a
                                 class="text-primary-2 xl:p-0  hover:bg-slate-300" href="contact.html">Liên hệ</a></li>
                     </ul>
                     <div
@@ -69,22 +69,39 @@
                 <div
                     class="flex flex-col gap-[60px] px-5 pt-14 md:px-4 md:pt-10 xl:flex-row xl:gap-[246px] xl:pt-[60px] lg:px-2 2xl:px-0">
                     <div class="flex flex-col gap-10">
-                        <div class="w-full flex flex-col gap-4 xl:w-[558px]">
+                        <div class=" w-full flex flex-col gap-4 xl:w-[558px]">
                             <span class="text-title-2 font-normal text-primary-1 ">Họ tên</span>
-                            <input type="text" class="border-[1px] border-solid border-neutral-2-300 h-14 w-full p-4">
+                            <div class="relative">
+                                <input type="text"
+                                    class="effect-8 border-[1px] border-solid border-neutral-2-300 h-14 w-full p-4 focus:outline-none">
+                                <span class="focus-border-input-contact"><i></i></span>
+                            </div>
                         </div>
                         <div class="w-full flex flex-col gap-4">
                             <span class="text-title-2 font-normal text-primary-1">Email</span>
-                            <input type="text" class="border-[1px] border-solid border-neutral-2-300 h-14 w-full p-4">
+                            <div class="relative">
+                                <input type="email"
+                                    class="effect-8 border-[1px] border-solid border-neutral-2-300 h-14 w-full p-4 focus:outline-none">
+                                <span class="focus-border-input-contact"><i></i></span>
+                            </div>
                         </div>
                         <div class="w-full flex flex-col gap-4">
                             <span class="text-title-2 font-normal text-primary-1">Số điện thoại</span>
-                            <input type="text" class="border-[1px] border-solid border-neutral-2-300 h-14 w-full p-4">
+                            <div class="relative">
+                                <input type="text"
+                                    class="effect-8 border-[1px] border-solid border-neutral-2-300 h-14 w-full p-4 focus:outline-none">
+                                <span class="focus-border-input-contact"><i></i></span>
+                            </div>
                         </div>
                         <div class="w-full flex flex-col gap-4">
                             <span class="text-title-2 font-normal text-primary-1">Nội dung</span>
-                            <textarea type="text"
-                                class="border-[1px] border-solid border-neutral-2-300 h-[200px] w-full resize-none p-4"></textarea>
+                            <div class="relative">
+                                <textarea type="text"
+                                    class="effect-8 border-[1px] border-solid border-neutral-2-300 h-[200px] w-full resize-none p-4 focus:outline-none"></textarea>
+
+                                <span class="focus-border-input-contact"><i></i></span>
+                            </div>
+
                         </div>
                         <div>
                             <button
