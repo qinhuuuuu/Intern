@@ -11,40 +11,34 @@
 
 <body class="font-mulish w-screen overflow-x-hidden">
     <header>
-        <div class="w-full bg-transparent text-primary-1 absolute top-0 z-10 h-full">
-            <div class="xl:max-w-7xl mx-auto w-full h-full">
-                <div class="py-8  w-full h-full">
-                    <!-- logo -->
-                    <div class="flex float-left h-fit px-4">
-                        <a href="index.html" class="flex"><img src="../img/header-footer/logo.png" alt=""></a>
-                    </div>
-                    <div class=" xl:hidden ">
-                        <button
-                            class="dropbtn twi-19-menu-fill float-right text-[40px] leading-[40px] text-white px-4 "></button>
-                        <ul class="dropdown-content  w-full h-full pt-5 hidden bg-white overflow-auto ">
-                            <a class="text-primary-1 px-6 py-4 block hover:bg-slate-300 border-b-slate-300 border-solid border-b-[1px]"
-                                href="index.html">Trang chủ</a>
-                            <a class="text-primary-1 px-6 py-4 block hover:bg-slate-300 border-b-slate-300 border-solid border-b-[1px]"
-                                href="about.html">Giới
-                                thiệu</a>
-                            <a class="text-primary-2 px-6 py-4 block hover:bg-slate-300 border-b-slate-300 border-solid border-b-[1px]"
-                                href="contact.html">Liên hệ</a>
-                        </ul>
-                    </div>
-                    <!-- menu desktop -->
-                    <div class="hidden xl:flex gap-[120px] items-center  font-normal text-body-5 float-right mr-4">
-                        <ul class="flex gap-[72px]">
-                            <li><a class="hover:text-primary-2 text-primary-1" href="about.html">Giới thiệu</a></li>
-                            <li><a class="text-primary-1 hover:text-primary-2" href="contact.html">Liên hệ</a></li>
-                        </ul>
-                        <div class="w-[285px]  h-[58px] rounded-[50px] bg-phone-header  bg-no-repeat bg-cover">
-                            <div class="flex items-center gap-4 h-full ml-[6px] cursor-pointer">
-                                <div
-                                    class="twi-19-call-fill text-neutral-1-900 text-[20px] bg-white rounded-full p-[13px]">
-                                </div>
-                                <div class="text-primary-1 font-normal text-body-5">
-                                    Hotline: 0123 456 789
-                                </div>
+        <div class="w-full bg-transparent text-primary-1 fixed top-0 z-10  ">
+            <div
+                class="relative mx-auto w-full py-8 px-4 flex items-center justify-between lg:px-2 xl:max-w-7xl 2xl:px-0">
+                <!-- logo -->
+                <a href="index.html"><img class=" aspect-4 h-10" src="../img/header-footer/logo.png" alt=""></a>
+                <div class="xl:flex gap-[120px]">
+                    <!--  icon menu -->
+                    <button
+                        class=" xl:hidden dropbtn twi-19-menu-fill text-[40px] text-white focus:outline-none"></button>
+                    <!-- list item -->
+                    <ul
+                        class="absolute top-full left-0 w-full dropdown-content hidden h-[screen-104px] text-body-5 bg-white overflow-auto xl:static xl:w-fit xl:flex xl:bg-transparent xl:gap-[72px]">
+                        <li class=" border-b-slate-300 border-solid border-b-[1px] px-6 py-4  xl:hidden"><a
+                                class=" text-primary-1 hover:text-primary-2  hover:bg-slate-300" href="about.html">Trang
+                                chủ</a></li>
+                        <li class=" border-b-slate-300 border-solid border-b-[1px]  px-6 py-4 "><a
+                                class="text-primary-1 hover:text-primary-2 xl:p-0 hover:bg-slate-300"
+                                href="about.html">Giới thiệu</a></li>
+                        <li class=" border-b-slate-300 border-solid border-b-[1px]  px-6 py-4 "><a
+                                class="text-primary-2 xl:p-0  hover:bg-slate-300" href="contact.html">Liên hệ</a></li>
+                    </ul>
+                    <div
+                        class="hidden xl:block w-[285px] h-[58px] rounded-[50px] bg-phone-header  bg-no-repeat bg-cover">
+                        <div class="flex items-center gap-4 h-full ml-[6px] cursor-pointer">
+                            <div class="twi-19-call-fill text-neutral-1-900 text-[20px] bg-white rounded-full p-[13px]">
+                            </div>
+                            <div class="text-primary-1 font-normal text-body-5">
+                                Hotline: 0123 456 789
                             </div>
                         </div>
                     </div>
